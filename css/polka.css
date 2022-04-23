@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+.header{
+	height: 95px;
+	background: #061336;
+}
+.logo{
+	width: 300px;
+}
+.body{
+	margin: 0;
+	background: #061336;
+	font-family: Oswald;
+	color: white;
+	font-size: 30px;
+}
+.gameplay_vid{
+	width: 1000px;
+	margin-top: 40px;
+	margin-left: 25%;
+}
+.gameplay{
+	width: 1520px;
+	height: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.d-flex{
+	display: flex;
+}
+.gp-skills{
+	width: 760px;
+	height: 405px;
+}
+.gp-invent{
+	width: 760px;
+	height: 405px;
+}
+.location{
+	width: 1522px;
+	height: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.loc-img{
+	width: 508px;
+	transition: 1s;
+}
+.box{
+	width: 508px;
+	height: 69%;
+	text-align: center;
+	padding-top: 250px;
+	transition: 1s;
+}
+.loc-img:hover .box{
+	background: rgba(18, 27, 86, 0.5);
+	overflow: hidden;
+	z-index: 2;
+}
+.loc-img:hover .text-loc{
+	opacity: 1;
+}
+.text-loc{
+	opacity: 0;
+	color: white;
+	transition: 1s;
+}
+
+.maps{
+	width: 1522px;
+	height: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.map-img{
+	width: 1522px;
+	height: 405px;
+}
+.weapon{
+	width: 1522px;
+	height: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text{
+	text-align: center;
+	font-weight: bold;
+
+}
+.wep{
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 370px;
+	width: 370px;
+	transition: 1s;
+}
+.wep:hover{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 380px;
+	width: 380px;
+}
